@@ -20,7 +20,7 @@
 			android:text="1/1"
 			/>
 		
-		<com.example.administrator.myapplication.ShowImagesViewPager
+		<com.example.administrator.myapplication.photoview.ShowImagesViewPager
 			android:id="@+id/vp"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"

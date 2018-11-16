@@ -1,4 +1,4 @@
-package com.example.administrator.myapplication;
+package com.example.administrator.myapplication.photoview;
 
 /**
  * Created by Administrator on 2017/5/6.

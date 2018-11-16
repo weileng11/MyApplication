@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.View;
+import com.example.administrator.myapplication.photoview.Config;
+import com.example.administrator.myapplication.photoview.ConstantValue;
+import com.example.administrator.myapplication.photoview.ShowImagesDialog;
 import java.util.ArrayList;
 import java.util.List;
 
