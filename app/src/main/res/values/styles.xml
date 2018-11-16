@@ -20,6 +20,8 @@
 		<item name="android:backgroundDimEnabled">true</item>
 		<item name="android:background">@android:color/transparent</item>
 		<item name="android:windowNoTitle">true</item>
+		<!-- 动画 -->
+		<item name="android:windowAnimationStyle">@style/ShowImageDialogAnimation</item>
 	</style>
 	
 	<!--朋友圈图片全屏样式-->
