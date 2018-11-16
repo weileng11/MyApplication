@@ -11,7 +11,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- @author ${bruce} */
+ * @author: ${bruce}
+ * @project: MainActivity
+ * @package: com.example.administrator.myapplication
+ * @description:
+ * @date: 2018/11/15 0015
+ * @time: 下午 6:06
+ */
 public class MainActivity extends AppCompatActivity
 {
 	private List<String> list;
