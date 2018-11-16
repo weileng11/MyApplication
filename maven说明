@@ -1,0 +1,35 @@
+用法:
+1.找到设置，点击Gradle,现在最后一个属性,更改对应的缓存地址,(D:/as_xm/test)先将第三方jar包下载到本地的gradle缓存当中
+(如D:\as_xm\test\caches\modules-2\files-2.1)，打开maven.zip 解压,选择输出位置,copy D:\as_xm\test\caches\modules-2\files-2.1 
+新创建出来的.m2文件夹就是我们想要的.m2,下载完后as项目里面创建.m2文件夹,并在build.gardle设置对应的路径，注释maven，在查看缓存地址中的jar，在创建m2的目录
+下在继续创建目录，如项目中的M2所示.结构必须如此，否则在Meven上对应找不到.重新运行即可
+
+
+buildscript {
+    repositories {
+//        jcenter()
+//        mavenCentral()
+//        maven {
+//            url 'https://maven.google.com'
+//        }
+//        maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+//        mavenCentral()
+//        jcenter()
+//        maven {
+//            url 'https://maven.google.com'
+//        }
+//        maven { url "https://jitpack.io" }
+		maven{ url "${rootDir.path}/.m2" }
+    }
+}
